@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body
+    style="
+      background-image: radial-gradient(
+        circle closest-side at 150px 150px,
+        #f00,
+        yellow,
+        rgb(63, 63, 255)
+      );
+    "
+    class="flex flex-col justify-center items-center h-screen bg-gray-200 bg-radial-[at_25%_25%] from-yellow-500 from-10% via-orange-500 via-10% to-blue-600 to-50% mt-12 overflow-hidden"
+  >
+    <div class="flex flex-col items-center gap-4 p-4 py-6 bg-black rounded-2xl">
+      <div class="w-24 h-24 bg-red-600 rounded-full"></div>
+      <div class="w-24 h-24 bg-yellow-400 rounded-full"></div>
+      <div class="w-24 h-24 bg-green-600 rounded-full"></div>
+    </div>
+    <div class="w-12 h-48 bg-black"></div>
+    <div
+      class="w-128 h-5 bg-green-700 rounded-t-full shadow-lg shadow-amber-800"
+    ></div>
+    <div class="w-full h-24 bg-amber-900"></div>
+  </body>
+</html>
